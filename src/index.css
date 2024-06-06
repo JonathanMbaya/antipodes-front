@@ -1,9 +1,44 @@
 body {
   margin: 0;
-  font-family: "Playfair Display", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  color: #30595F;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+  font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+.blockOne{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blockOne img {
+  position:absolute;
+  z-index: -100;
+  width: 400px;
+}
+
+@media only screen and (max-width: 425px){
+
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1{
+    font-size: 32px;
+  }
 }
