@@ -4,7 +4,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1{
+h1 , button{
   color: #30595F;
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
@@ -40,5 +40,13 @@ p{
 
   h1{
     font-size: 32px;
+  }
+
+  p, span{
+    font-size: 14px;
+  }
+
+  .blockOne{
+    height: 50vh;
   }
 }

@@ -1,16 +1,17 @@
 import React from 'react';
 import './SimpleBlock.css';
+import { Button } from '../Buttons/Button.jsx';
 
 function SimpleBlock() {
     return (
         <div className='simple-block'>
             
-            <h1>Un plateau technique de pointe</h1>
+            <h1>Un plateau technique de pointe <br /> <hr></hr></h1>
             
 
             <p>
-                <hr></hr>
                 
+
                 Vitae volutpat commodo velit vel donec mus
                 nisl eleifend tincidunt. Scelerisque at 
                 et pellentesque arcu bibendum eleifend 
@@ -18,6 +19,9 @@ function SimpleBlock() {
                 eleifend <strong>elementum nec </strong>.Ultrices eleifend elementum 
                 nec rutrum consectetur.
             </p>
+
+
+            <Button/>
             
         </div>
     )

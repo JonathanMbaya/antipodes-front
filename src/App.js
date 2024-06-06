@@ -1,5 +1,6 @@
 import './App.css';
 import { SimpleBlock } from './components/SimpleBlock/SimpleBlock.jsx';
+import ScrollBlock from './components/ScrollBlock/ScrollBlock.jsx';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
 
         <SimpleBlock />
       </div>
+
+      <ScrollBlock/>
 
     </div>
   );
