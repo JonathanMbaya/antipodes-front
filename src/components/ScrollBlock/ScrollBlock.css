@@ -68,6 +68,10 @@
     align-items: flex-start;
     text-align: left;
 }
+
+.pagination{
+    visibility: hidden;
+}
   
 /* Styles spécifiques pour les versions mobiles */
 @media (max-width: 768px) {
@@ -91,13 +95,13 @@
         overflow-x: auto;
         scroll-behavior: smooth;
         width: 400px;
+        scroll-snap-type: x mandatory;
     }
 
     .scroll-button {
         position: relative;
         transform: translateY(50%);
         margin-bottom: 2rem;
-        background-color: rgba(255, 255, 255, 0.8);
         border: none;
         font-size: 24px;
         cursor: pointer;
@@ -132,6 +136,33 @@
         border: 1px solid #ccc;
         box-sizing: border-box;
         color: black;
+    }
+
+    .pagination{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        visibility: visible;
+    }
+
+    .circle{
+        height: .5rem;
+        width: .5rem;
+        background-color: #30595F;
+        border-radius: 100%;
+        margin: 2rem;
+    }
+    
+    .pagination .big-circle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        width: 2rem;
+        background-color: #30595F ;
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+        border-radius: 100%;
+        color: white;
     }
 }
   

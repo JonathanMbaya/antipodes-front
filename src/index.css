@@ -2,6 +2,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F5F5;
 }
 
 h1 , button{
@@ -44,12 +45,14 @@ p{
   display: flex;
   justify-content:space-around;
   align-items: center;
+  margin-top: 5rem;
 }
 
 .blockTwo img {
   z-index: -100;
   width: 40%;
   height: auto;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.10));
 }
 
 @media only screen and (max-width: 768px){
@@ -90,11 +93,13 @@ p{
     align-items: center;
     width: 90%;
     padding-left: 5%;
+    margin-top: 5rem;
   }
   
   .blockTwo img {
     width: 90%;
     height: auto;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.10));
   }
 
   .partOne {
