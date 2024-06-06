@@ -4,3 +4,12 @@
     padding: 1rem 2rem;
     color: #BD8F6C;
 }
+
+
+.button-more:hover{
+    background-color: #BD8F6C;
+    border: .1rem solid #BD8F6C;
+    padding: 1rem 2rem;
+    color: white;
+    transition: 0.5s;
+}

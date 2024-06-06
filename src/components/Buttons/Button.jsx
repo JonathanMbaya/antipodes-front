@@ -9,7 +9,7 @@ export function Button(props) {
     return (
         <>
             <button className='button-more'>
-                En savoir plus <FontAwesomeIcon icon={faArrowRight} />
+                En savoir plus  <FontAwesomeIcon icon={faArrowRight} />
             </button>
             
         </>

@@ -1,10 +1,27 @@
+.horizontal-scroll-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.horizontal-scroll {
+    display: flex;  
+}
+
+.scroll-button{
+    position: absolute;
+    visibility: hidden;
+}
+
 .blockUnique{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    height: 330px;
-    min-width: 60%;
+    width: 257px;
+    height: 327px;
     padding: 1rem;
     text-align: left;
     background: white;
@@ -18,13 +35,20 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    height: 330px;
-    min-width: 60%;
+    width: 257px;
+    height: 327px;
     padding: 1rem;
     background: white;
     border: 1px solid #ccc;
     box-sizing: border-box;
     color: black;
+}
+
+.block img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 200;
 }
 
 .blockUnique , .block {
@@ -35,12 +59,14 @@
     border: 1px solid rgba(56, 56, 56, 0.10);
     background: linear-gradient(166deg, #30595F 19.29%, #6C9CA3 90.01%);
     color: white;
+    transition: .3s;
 }
 
 .block .info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: left;
 }
   
 /* Styles spécifiques pour les versions mobiles */
@@ -57,7 +83,6 @@
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        margin-left: 2rem;
     }
 
     .horizontal-scroll {
@@ -77,6 +102,36 @@
         font-size: 24px;
         cursor: pointer;
         z-index: 200;
+        visibility: visible;
+    }
+
+    .blockUnique{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 330px;
+        min-width: 60%;
+        padding: 1rem;
+        text-align: left;
+        background: white;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        color: black;
+    }
+    
+    .block{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 330px;
+        min-width: 60%;
+        padding: 1rem;
+        background: white;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        color: black;
     }
 }
   

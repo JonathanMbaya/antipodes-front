@@ -12,12 +12,29 @@ hr{
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+    width: 567px;
+    height: 510px;
+}
+
+.trait{
+    width: 5rem;
+    height: .2rem;
+    background-color: #30595F;
 }
 
 @media only screen and (max-width: 768px){
 
     .simple-block h1, .simple-block p{
         text-align: left;
+    }
+
+
+    .simple-block{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 100%;
     }
 
 }

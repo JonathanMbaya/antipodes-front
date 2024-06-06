@@ -6,7 +6,8 @@ function SimpleBlock({title ,paragraph} ) {
     return (
         <div className='simple-block'>
             
-            <h1>{title}<br /><hr></hr></h1>
+            <h1>{title}</h1>
+            <div className='trait'></div>
 
             <p>
                 { paragraph }
