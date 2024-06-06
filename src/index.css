@@ -30,6 +30,18 @@ p{
   width: 400px;
 }
 
+.blockTwo{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.blockTwo img {
+  z-index: -100;
+  width: 40%;
+  height: auto;
+}
+
 @media only screen and (max-width: 425px){
 
   body{
@@ -47,6 +59,28 @@ p{
   }
 
   .blockOne{
-    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .blockOne img {
+    position:absolute;
+    z-index: -100;
+    width: 400px;
+  }
+
+  .blockTwo{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+  
+  .blockTwo img {
+    width: 380px;
+    height: auto;
   }
 }

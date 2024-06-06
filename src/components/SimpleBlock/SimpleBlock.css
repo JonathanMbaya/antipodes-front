@@ -16,10 +16,6 @@ hr{
 
 @media only screen and (max-width: 768px){
 
-    .simple-block{
-        width: 300px;
-    }
-
     .simple-block h1, .simple-block p{
         text-align: left;
     }
