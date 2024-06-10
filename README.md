@@ -1,3 +1,18 @@
+# antipodes-front
+
+## Pré requis 
+
+Ouvrez votre terminal 
+
+Avant de taper ces commandes , assurez vous de vous trouver dans le projet '' antipodes-front ''
+
+Ensuite installer les dépendances grâce à cette commande
+
+```
+npm install
+
+```
+
 # Démarrage avec Create React App
 
 Ce projet a été initialisé avec [Create React App](https://github.com/facebook/create-react-app).
